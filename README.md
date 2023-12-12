@@ -1,5 +1,9 @@
 # Sample AEM project template
 
+AEM Archetype-43 AEMaaCS:
+mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate -D archetypeGroupId=com.adobe.aem -D archetypeArtifactId=aem-project-archetype -D archetypeVersion=43 -D appTitle="Learning Project" -D appId="learning" -D groupId="com.adobe.aem.learning" -D artifactId="aem-learning" -D package="com.adobe.aem.learning.project" -D version="0.0.1-SNAPSHOT" -D aemVersion="cloud" -Dnode.version=v18.9.0 -Dnpm.version=8.19.2
+
+
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
 ## Modules
@@ -124,3 +128,4 @@ A ClientLib will consist of the following files and directories:
 The project comes with the auto-public repository configured. To setup the repository in your Maven settings, refer to:
 
     http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
+
