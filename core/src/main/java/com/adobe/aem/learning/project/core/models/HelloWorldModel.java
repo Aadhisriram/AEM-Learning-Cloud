@@ -67,6 +67,6 @@ public class HelloWorldModel {
     }
 
     public String getFirstName() {
-        return firstName;
+        return "the name is "+firstName;
     }
 }
