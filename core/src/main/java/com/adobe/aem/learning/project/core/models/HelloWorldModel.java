@@ -58,7 +58,7 @@ public class HelloWorldModel {
 
         message = "Hello World!\n"
             + "Resource type is: " + resourceType + "\n"
-            + "Current page path is:  " + currentPagePath + "\n";
+            + "Current page path change to check branch is:  " + currentPagePath + "\n";
 
     }
 
