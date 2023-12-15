@@ -57,7 +57,7 @@ public class HelloWorldModel {
                 .map(Page::getPath).orElse("");
 
         message = "Hello World!\n"
-            + "Resource type is: " + resourceType + "\n"
+            + "Resource type is: Cherry Check 1 " + resourceType + "\n"
             + "Current page path change to check branch is cherry pick:  " + currentPagePath + "\n";
 
     }
