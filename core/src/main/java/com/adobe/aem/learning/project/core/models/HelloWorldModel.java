@@ -58,8 +58,7 @@ public class HelloWorldModel {
 
         message = "Hello World!\n"
             + "Resource type is: " + resourceType + "\n"
-            + "Current page path change to check branch is Hi Cherry:  " + currentPagePath + "\n";
-
+            + "Current page path change to check branch is cherry pick:  " + currentPagePath + "\n";
     }
 
     public String getMessage() {
