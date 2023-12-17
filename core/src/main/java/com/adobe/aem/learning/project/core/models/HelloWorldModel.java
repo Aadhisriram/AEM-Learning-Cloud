@@ -49,7 +49,7 @@ public class HelloWorldModel {
 
     private String firstName;
 
-    private String checkMain;
+    private String sixth;
 
     @PostConstruct
     protected void init() {
@@ -72,7 +72,7 @@ public class HelloWorldModel {
         return "the name is "+firstName;
     }
 
-    public String getCheckMain() {
-        return checkMain;
+    public String getSixth() {
+        return sixth;
     }
 }
