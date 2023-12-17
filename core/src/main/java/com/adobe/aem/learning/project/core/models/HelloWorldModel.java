@@ -49,6 +49,8 @@ public class HelloWorldModel {
 
     private String firstName;
 
+    private String checkMain;
+
     @PostConstruct
     protected void init() {
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
@@ -68,5 +70,9 @@ public class HelloWorldModel {
 
     public String getFirstName() {
         return "the name is "+firstName;
+    }
+
+    public String getCheckMain() {
+        return checkMain;
     }
 }
