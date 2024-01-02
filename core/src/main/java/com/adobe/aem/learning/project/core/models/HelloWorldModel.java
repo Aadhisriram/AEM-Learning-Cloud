@@ -73,6 +73,6 @@ public class HelloWorldModel {
     }
 
     public String getSixth() {
-        return sixth+" The Protronics for the seventh branch";
+        return sixth+" The Protronics";
     }
 }
